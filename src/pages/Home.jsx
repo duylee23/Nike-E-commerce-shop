@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { Slider } from '../components'
+import ProductList from '../components/ProductList'
 const Home = () => {
-    console.log('home page')
   return (
-    <div>Home</div>
+    <div className='px-[50px]'>
+      <Slider/>
+      <ProductList/>
+    </div>
   )
 }
 
