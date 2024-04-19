@@ -1,10 +1,13 @@
 import React from 'react'
-import { NavBar } from '../../components'
+import { SideBarLeft } from '../../components'
+import { Outlet } from 'react-router-dom'
 
 const Admin = () => {
   return (
-    <div className='w-full mt-20  h-[1000px]'>
-      <NavBar/>
+
+    <div className=' mt-20 h-[1000px] flex'>
+      <SideBarLeft/>
+      <Outlet/>
     </div>
   )
 }

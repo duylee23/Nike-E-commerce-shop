@@ -1,7 +1,7 @@
 import path from "./utils/paths"
 import { Routes, Route } from "react-router-dom";
 import {Home, Admin} from "./pages"
-import { Header, Footer, UserList } from './components';
+import { Header, Footer, UserList, ProductList, OrderList } from './components';
 function App() {
 
 
@@ -9,9 +9,11 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path={path.PUBLIC} element={<Home/>}></Route>
-        <Route path={path.ADMIN} element={<Admin/>}>
-          <Route path={path.USER} element={<UserList/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="admin" element={<Admin />}>
+          <Route path="user" element={<UserList />} />
+          <Route path="product" element={<ProductList/>} /> 
+          <Route path="order" element={<OrderList />} /> 
         </Route>
       </Routes>
       <Footer/>

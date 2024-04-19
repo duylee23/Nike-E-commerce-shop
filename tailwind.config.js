@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         bgOrange: '#ff6501',
       },
+      textColor: {
+        textOrange: '#ff6501',
+      }
     },
   },
   variants: {},

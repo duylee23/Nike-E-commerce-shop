@@ -27,7 +27,6 @@ const ProductList = () => {
               <span>{item.description}</span>
               <span>{item.price}</span>
             </div>
-
           </div>
          ))}
         </div>
