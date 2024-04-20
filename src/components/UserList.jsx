@@ -1,36 +1,31 @@
 import React from 'react'
 
 const UserList = () => {
-    console.log('user list')
     return (
-        <div className=' w-full border h-full border'>
+        <div className='flex-auto w-full border h-full border'>
             {/* table */}
-           
                 <table class="w-full text-sm text-left rtl:text-right">
                     <thead class="text-xs text-black-700 uppercase ">
                         <tr><th scope="col" class="px-6 py-3">
                                 Id
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Product name
+                                User name
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Image
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Size
+                                Email
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Category
+                                Phone number
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Price
+                                Address
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Sold
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Quantity
+                                Role
                             </th>
                         </tr>
                     </thead>
@@ -41,25 +36,23 @@ const UserList = () => {
                                 1
                             </td>
                             <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap">
-                                Nike Air force 1 LV8
+                                Le Duy Ninh
                             </th>
                             <td class="px-6 py-4">
-                                <img className='w-[100px] h-[100px] object-contain border' src='https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/26c4c580-6ac0-4727-8bab-5a0cb98be03a/air-force-1-lv8-older-shoes-DZw05k.png'></img>
+                                <img className='w-[100px] h-[100px] object-contain border'
+                                 src='https://i.pinimg.com/736x/00/48/2e/00482ee4c3d076360699efcfc53036ce.jpg'></img>
                             </td>
                             <td class="px-6 py-4">
-                                34, 35 , 36
+                                coobedangyeuu@gmail.com
                             </td>
                             <td class="px-6 py-4">
-                                Air force 1
+                                0352846368
                             </td>
                             <td class="px-6 py-4">
-                                $2000
+                                Ha Nam
                             </td>
                             <td class="px-6 py-4">
-                                21
-                            </td>
-                            <td class="px-6 py-4">
-                                100
+                                ADMIN
                             </td>
                         </tr>
 
@@ -68,26 +61,24 @@ const UserList = () => {
                                 1
                             </td>
                             <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap">
-                                Nike Air force 1 LV8
+                                Le Duy Ninh
                             </th>
                             <td class="px-6 py-4">
-                                <img className='w-[100px] h-[100px] object-contain border' src='https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/26c4c580-6ac0-4727-8bab-5a0cb98be03a/air-force-1-lv8-older-shoes-DZw05k.png'></img>
+                                <img className='w-[100px] h-[100px] object-contain border'
+                                 src='https://i.pinimg.com/736x/00/48/2e/00482ee4c3d076360699efcfc53036ce.jpg'></img>
                             </td>
                             <td class="px-6 py-4">
-                                34, 35 , 36
+                                coobedangyeuu@gmail.com
                             </td>
                             <td class="px-6 py-4">
-                                Air force 1
+                                0352846368
                             </td>
                             <td class="px-6 py-4">
-                                $2000
+                                Ha Nam
                             </td>
                             <td class="px-6 py-4">
-                                21
-                            </td>
-                            <td class="px-6 py-4">
-                                100
-                            </td>
+                                ADMIN
+                            </td>      
                         </tr>
 
                         <tr class="bg-white border-b ">
@@ -95,26 +86,24 @@ const UserList = () => {
                                 1
                             </td>
                             <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap">
-                                Nike Air force 1 LV8
+                                Le Duy Ninh
                             </th>
                             <td class="px-6 py-4">
-                                <img className='w-[100px] h-[100px] object-contain border' src='https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/26c4c580-6ac0-4727-8bab-5a0cb98be03a/air-force-1-lv8-older-shoes-DZw05k.png'></img>
+                                <img className='w-[100px] h-[100px] object-contain border'
+                                 src='https://i.pinimg.com/736x/00/48/2e/00482ee4c3d076360699efcfc53036ce.jpg'></img>
                             </td>
                             <td class="px-6 py-4">
-                                34, 35 , 36
+                                coobedangyeuu@gmail.com
                             </td>
                             <td class="px-6 py-4">
-                                Air force 1
+                                0352846368
                             </td>
                             <td class="px-6 py-4">
-                                $2000
+                                Ha Nam
                             </td>
                             <td class="px-6 py-4">
-                                21
-                            </td>
-                            <td class="px-6 py-4">
-                                100
-                            </td>
+                                ADMIN
+                            </td>      
                         </tr>
 
                         <tr class="bg-white border-b ">
@@ -122,26 +111,49 @@ const UserList = () => {
                                 1
                             </td>
                             <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap">
-                                Nike Air force 1 LV8
+                                Le Duy Ninh
                             </th>
                             <td class="px-6 py-4">
-                                <img className='w-[100px] h-[100px] object-contain border' src='https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/26c4c580-6ac0-4727-8bab-5a0cb98be03a/air-force-1-lv8-older-shoes-DZw05k.png'></img>
+                                <img className='w-[100px] h-[100px] object-contain border'
+                                 src='https://i.pinimg.com/736x/00/48/2e/00482ee4c3d076360699efcfc53036ce.jpg'></img>
                             </td>
                             <td class="px-6 py-4">
-                                34, 35 , 36
+                                coobedangyeuu@gmail.com
                             </td>
                             <td class="px-6 py-4">
-                                Air force 1
+                                0352846368
                             </td>
                             <td class="px-6 py-4">
-                                $2000
+                                Ha Nam
                             </td>
                             <td class="px-6 py-4">
-                                21
+                                ADMIN
+                            </td>      
+                        </tr>
+
+                        <tr class="bg-white border-b ">
+                            <td class="px-6 py-4">
+                                1
+                            </td>
+                            <th scope="row" class="px-6 py-4 font-medium whitespace-nowrap">
+                                Le Duy Ninh
+                            </th>
+                            <td class="px-6 py-4">
+                                <img className='w-[100px] h-[100px] object-contain border'
+                                 src='https://i.pinimg.com/736x/00/48/2e/00482ee4c3d076360699efcfc53036ce.jpg'></img>
                             </td>
                             <td class="px-6 py-4">
-                                100
+                                coobedangyeuu@gmail.com
                             </td>
+                            <td class="px-6 py-4">
+                                0352846368
+                            </td>
+                            <td class="px-6 py-4">
+                                Ha Nam
+                            </td>
+                            <td class="px-6 py-4">
+                                ADMIN
+                            </td>      
                         </tr>
                     </tbody>
                 </table>
